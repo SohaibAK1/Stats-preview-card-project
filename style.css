@@ -88,18 +88,23 @@ p.num {
     color: hsla(0, 0%, 100%, 0.75);
     word-spacing: 104px;
     font-size: 20px;
-    
+
 }
 
-p.detail {
-
+table {
     font-family: Lexend Deca;
     font-weight: 400;
-    margin-top: 0;
-    padding-top: 0;
-    padding-right: 86px;
-    padding-left: 75px;
-    word-spacing: 57px;
-    color: hsla(0, 0%, 100%, 0.6);
-   text-transform: uppercase; 
+    padding-left: 78px;
+    color: hsl(0, 0%, 100%);
+}
+
+thead tr td {
+    padding-right: 105px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+tbody tr {
+    text-transform: capitalize;
+    color: hsla(0, 0%, 100%, 0.6)
 }
